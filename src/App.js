@@ -7,9 +7,6 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-        <header>
-          <h1>React Redux Intro</h1>
-        </header>
         <Message />
       </div>
     </Provider>

@@ -20,7 +20,7 @@ const Message = () => {
 
   return (
     <main>
-      <h1>Redux Message Builder</h1>
+      <h1>React Redux Message Builder</h1>
       <p>{message}</p>
       <div>
         <button onClick={addWordHandler}>Add new word</button>
