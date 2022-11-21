@@ -1,8 +1,18 @@
+import { Provider } from "react-redux";
+
+import store from "./store/index";
+import Message from "./Message";
+
 function App() {
   return (
-    <div>
-      <header>Test</header>
-    </div>
+    <Provider store={store}>
+      <div>
+        <header>
+          <h1>React Redux Intro</h1>
+        </header>
+        <Message />
+      </div>
+    </Provider>
   );
 }
 
